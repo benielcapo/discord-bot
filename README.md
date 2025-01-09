@@ -1,1 +1,1 @@
-the backend should have node.js
+the server.js uses node.js
