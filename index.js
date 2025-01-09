@@ -3,7 +3,7 @@ var button = document.getElementById("OK")
 var textbox = document.getElementById("token")
 var ERR_TEXT = document.getElementById("err_text")
 
-import { SET_GLOBAL } from "./globals"
+import { SET_GLOBAL } from "./globals.js"
 
 button.addEventListener("click", async function() {
     console.log("clicked");
