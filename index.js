@@ -1,9 +1,9 @@
-var DEF_URL = "http://194.164.125.5:6020"
 var button = document.getElementById("OK")
 var textbox = document.getElementById("token")
 var ERR_TEXT = document.getElementById("err_text")
 
-import { SET_GLOBAL } from "./globals.js"
+import { SET_GLOBAL, GetIp } from "./globals.js"
+var DEF_URL = GetIp()
 
 button.addEventListener("click", async function() {
     console.log("clicked");
