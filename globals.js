@@ -1,5 +1,5 @@
 var G_ARRAY = []
-var IP = ""
+var IP = "https://194.164.125.5:6020"
 
 export function SET_GLOBAL(name, value) {
     G_ARRAY[name] = value
