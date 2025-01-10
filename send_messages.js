@@ -4,9 +4,9 @@ var CHANNELNAME_BOX = document.getElementById("channel")
 var BUTTON = document.getElementById("send")
 var HIDDEN = document.getElementById("blank")
 var RESPONSE_TEXTBOX = document.getElementById("res")
-var DEF_URL = "http://194.164.125.5:6020"
 
-import { GET_GLOBAL } from "./globals"
+import { GET_GLOBAL, GetIp } from "./globals"
+var DEF_URL = GetIp()
 
 function OnClick() {
     console.log("clicked")
