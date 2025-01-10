@@ -5,6 +5,8 @@ var ERR_TEXT = document.getElementById("err_text")
 import { SET_GLOBAL, GetIp } from "./globals.js"
 var DEF_URL = GetIp()
 
+console.log("normal ip is " + DEF_URL)
+
 button.addEventListener("click", async function() {
     console.log("clicked");
     var text = textbox.value
